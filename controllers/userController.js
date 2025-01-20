@@ -10,9 +10,10 @@ const getAllUsers = async (req, res) => {
 };
 
 const testing = (req, res) => {
-  res.status(200).json({ name:"Hola Cirus" });
+  res.status(200).json({ name: "Hola Cirus" });
 }
 
 module.exports = {
-  getAllUsers,
+ getAllUsers,
+ testing
 };
